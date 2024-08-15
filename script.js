@@ -71,8 +71,8 @@ function pace(){
 
 
    calorias = (velocidade * peso * 0.0175 *(tempo_minutos) ).toFixed(1);
-
-  if (nome !="" && distancia !="" && peso !="" && horas !="" && minutos !="" && segundos !=""){
+// if (nome !="" && distancia !="" && peso !="" && horas !="" && minutos !="" && segundos !=""){
+  if (true){
 
     var texto = "Senhor "+ nome +", ao calcular seu PACE, chegamos a conclusão de que ele tem o valor de " + pace + "! E após percorrer "+ distancia +"Km em "+ horas +"h "+ minutos +"min "+ segundos +"s o número de calorias perdida foi de " + calorias +"Kcal" ;
   }else{
